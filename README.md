@@ -1,0 +1,4 @@
+addon-installer
+===============
+
+Addon installer
