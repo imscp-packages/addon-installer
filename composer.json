@@ -1,0 +1,14 @@
+{
+    "name": "imscp-packages/addon-installer",
+    "type": "composer-plugin",
+    "license": "GPLv2",
+    "autoload": {
+        "psr-0": {"iMSCP\\Composer": "src/"}
+    },
+    "extra": {
+        "class": "iMSCP\\Composer\\AddonInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "1.0.0"
+    }
+}
