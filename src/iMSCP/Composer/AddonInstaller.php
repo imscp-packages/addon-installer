@@ -25,7 +25,7 @@ class AddonInstaller extends LibraryInstaller
 			);
 		}
 
-		return '/usr/local/imscp/addons' . substr($package->getPrettyName(), 21);
+		return '/usr/local/imscp/addons/' . substr($package->getPrettyName(), 21);
 	}
 
 	/**
